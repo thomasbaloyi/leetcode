@@ -43,6 +43,8 @@ func (this *NestedIterator) Next() int {
 	for i := 0; i < len(this.NestedList); i++ {
 		return 1
 	}
+
+	return 0
 }
 
 func (this *NestedIterator) HasNext() bool {
